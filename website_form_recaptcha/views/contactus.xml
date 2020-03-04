@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-	<template id="gio" inherit_id="website_form.contactus_form" name="Contact Us">
+	<template id="gio" inherit_id="website_crm.contactus_form" name="Contact Us">
 		<xpath expr="//div/form/div[6]" position="after">
 			<div class="form-group row form-field o_website_form_required_custom">
 				<label class="col-lg-3 col-md-4 col-form-label" for="g-recaptcha-response"></label>
